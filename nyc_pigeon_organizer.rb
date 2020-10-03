@@ -1,4 +1,4 @@
-#require 'pry'
+require 'pry'
 
 def nyc_pigeon_organizer(data)
 
@@ -14,8 +14,8 @@ def nyc_pigeon_organizer(data)
         end
         new_array[name][key].push(inner_key)
       end
-      end
     end
+  end
     new_data
-#  binding.pry
+    binding.pry
 end
