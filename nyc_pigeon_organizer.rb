@@ -6,6 +6,8 @@ def nyc_pigeon_organizer(data)
     value.each do |inner_name, names|
       names.each do |name|
         binding.pry
+        if !new_array[name]
+          new_array[name] = {}
       end
     end
   end
